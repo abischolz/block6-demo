@@ -1,0 +1,41 @@
+/* element selector */
+h1 {
+  color: red; 
+}
+/* class selector => . + class name  (more specific than element selector) */
+.text {
+  color: black;
+}
+
+/* id selector => # + id name  (more specific than class selector) */
+#title {
+  color: lightblue
+}
+
+h2 {
+  color: green;
+}
+
+img {
+  width: 40%;
+  display: inline-block;
+  padding: 20px;
+  /* width of border + color + style  */
+  border: 2px black dotted;
+  margin: 5px;
+}
+/* comma combinator - selects both elements */
+table, td {
+  border: 1px black solid;
+}
+
+th {
+  background-color: pink;
+}
+
+ul {
+  list-style-type: square;
+}
+ol {
+  list-style-type: lower-roman;
+}
